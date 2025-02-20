@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-v1",
+  "version": "1.0.0",
+  "description": "Personal Website Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peps778/Portfolio-v1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peps778/Portfolio-v1/issues"
+  },
+  "homepage": "https://magbanua-pauljhon",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.7",
+    "tailwindcss": "^4.0.7"
+  }
+}
