@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.{html,js,jsx,ts,tsx}"],  // Ensures Tailwind detects all files
+  content: ["./*.html", "./src/**/*.{html,js,jsx,ts,tsx}"], // ✅ Proper file scanning
   theme: {
     extend: {
       colors: {
@@ -9,17 +9,11 @@ module.exports = {
       }
     }
   },
-  corePlugins: {
-    preflight: true, // Ensure base styles are applied
-  },
-  experimental: {
-    optimizeUniversalDefaults: false, // Ensure all default styles are included
-  },
   safelist: [
     'bg-blue-500',
     'bg-green-500',
     'bg-yellow-500',
-    'bg-customPurple'
+    'bg-[#756FEA]' // ✅ Hex value for custom colors
   ],
   plugins: []
 };
