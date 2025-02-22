@@ -13,7 +13,7 @@ module.exports = {
     'bg-blue-500',
     'bg-green-500',
     'bg-yellow-500',
-    'bg-[#756FEA]' // ✅ Hex value for custom colors
+    'bg-[#756FEA]' // custom nav bg
   ],
   plugins: []
 };
