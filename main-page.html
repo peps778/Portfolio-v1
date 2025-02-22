@@ -5,47 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paul Jhon Magbanua</title>
     <!-- Tailwind CSS compiled output -->
-    <link href="src/output.css" rel="stylesheet">
+    <link href="dist/output.css" rel="stylesheet">
     <link rel="stylesheet" href="./src/custom.css">
-    
 </head>
 <body class="min-h-screen flex flex-col">
 
     <!-- Navigation Bar -->
-    <nav id="nav" class="bg-slate-950 flex justify-between items-center p-4 shadow-md">
-
+    <nav id="nav" class="bg-customPurple flex justify-between items-center p-4 shadow-md">
         <a href="#" aria-label="Home">
             <img src="./assets/logo.png" alt="Logo" class="h-10 w-10 object-cover">
         </a>
-
-        <h1 class="text-xl font-bold bgtext-stone-50">PAUL JHON MAGBANUA</h1>
-
+        <h1 class="text-xl font-bold text-gray-900">PAUL JHON MAGBANUA</h1>
         <ul class="flex space-x-6">
-            <li><a href="#" class="hover:text-blue-500 bgtext-stone-50 transition-colors">HOME</a></li>
-            <li><a href="#" class="hover:text-blue-500 bgtext-stone-50 transition-colors">SKILLS</a></li>
-            <li><a href="#" class="hover:text-blue-500 bgtext-stone-50 transition-colors">EXPERIENCE</a></li>
-            <li><a href="#" class="hover:text-blue-500 bgtext-stone-50 transition-colors">EDUCATION</a></li>
+            <li><a href="#" class="hover:text-blue-500 transition-colors">HOME</a></li>
+            <li><a href="#" class="hover:text-blue-500 transition-colors">SKILLS</a></li>
+            <li><a href="#" class="hover:text-blue-500 transition-colors">EXPERIENCE</a></li>
+            <li><a href="#" class="hover:text-blue-500 transition-colors">EDUCATION</a></li>
         </ul>
     </nav>
-    <section class="flex">
+
+    <!-- Hero Section -->
+    <section class="flex items-center justify-between p-6">
         <div class="flex-1">
-            <h1 class=" font-bold text-xl p-4">Hi, I’m Paul</h1>
+            <h1 class="font-bold text-xl p-4">Hi, I’m Paul</h1>
             <h4 class="font-bold text-sm p-4">Web Developer | CRM Manager | Marketing Specialist</h4>
-            <p class="text-sm p-4">Passionate about crafting innovative web solutions and delivering seamless user experiences. With a solid background in web development and technical support, I thrive on transforming ideas into reality. Let’s build something amazing together!</p>
-
-            <button class=" p4 font-bold rounded-lg text-sm  w-30 h-9 bg-[#756FEA] text-[#ffffff] justify-center">Download CV!</button>
- 
+            <p class="text-sm p-4">
+                Passionate about crafting innovative web solutions and delivering seamless user experiences. 
+                With a solid background in web development and technical support, I thrive on transforming ideas into reality. 
+                Let’s build something amazing together!
+            </p>
+            <button class="p-4 font-bold rounded-lg text-sm w-32 h-10 bg-[#756FEA] text-white">
+                Download CV!
+            </button>
         </div>
-        <div class="flex">
-            <img src="./assets/hero-icon.png" alt="file not found">
+        <div class="flex items-center">
+            <img src="./assets/hero-icon.png" alt="file not found" class="h-40">
         </div>
-    </section>
-
-
-    <!-- Next section -->
-
-    <section>
-        
     </section>
 
 </body>
